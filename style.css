@@ -1,0 +1,157 @@
+:root {
+  --blue: #0468cc;
+  --navy-blue: #062647;
+  --grey: #6c8090;
+  --dark-grey: rgb(64, 63, 63);
+  /* buttons */
+  --button-bg-color: #007bff;
+  --button-text-color: #ffffff;
+  --button-border-radius: 5px;
+  --button-padding: 10px 20px;
+  --button-font-size: 16px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins';
+}
+.containerr {
+  border: 1px solid var(--navy-blue);
+  margin: 20px auto;
+  padding: 10px 0 0 0;
+  max-width: 1200px;
+}
+
+/* navbar */
+.logo {
+  height: 50px;
+}
+
+nav {
+  background-color: var(--navy-blue);
+}
+
+.nav-item {
+  padding: 0 18px;
+  text-align: center;
+}
+
+nav .nav-link {
+  color: white;
+}
+
+nav .nav-link:hover {
+  color: var(--blue);
+}
+
+/* main */
+main,
+section {
+  padding: 20px 40px;
+}
+
+.hero {
+  /* display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 50px; */
+}
+
+.img-content img {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.text-content p {
+  line-height: 2;
+  text-align: justify;
+}
+.text-content .btn {
+  background-color: var(--button-bg-color);
+  color: white;
+  padding: 7px 22px;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.text-content .btn:hover {
+  background-color: var(--navy-blue);
+  color: white;
+}
+
+.socials i {
+  margin: 0px 5px 20px;
+}
+
+/* Subjects */
+.subjects h2 {
+  text-align: center;
+  font-size: 2.3rem;
+  padding: 30px 0;
+}
+
+.subject-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-reg {
+  background-color: var(--button-bg-color);
+  color: white;
+  padding: 7px 22px;
+  border-radius: 15px;
+  margin: 20px 0;
+  border: none;
+  vertical-align: middle;
+}
+
+.btn-reg:hover {
+  background-color: var(--navy-blue);
+  color: white;
+}
+/* why tuttees */
+.why-us {
+  margin: 20px 0;
+}
+.why-us img {
+  width: 100%;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+.why h2 {
+  text-align: center;
+  font-size: 2.3rem;
+  padding: 30px 0 20px 0;
+}
+.why p {
+  line-height: 2;
+  text-align: justify;
+}
+
+/* footer */
+footer {
+  background-color: #6c8090;
+  /* height: 50px; */
+}
+
+footer h3 {
+  font-size: 1rem;
+  text-align: center;
+  padding: 10px;
+}
+/* media queries */
+
+@media screen and (min-width: 768px) {
+  nav .nav-link:hover {
+    border-bottom: 2px solid var(--blue);
+    color: white;
+  }
+}
