@@ -27,15 +27,15 @@ p {
   font-family: 'Mulish', serif;
 }
 .containerr {
-  border: 1px solid var(--navy-blue);
   margin: 20px auto;
   padding: 10px 0 0 0;
-  max-width: 1000px;
+  /* max-width: 1000px; */
 }
 
 /* navbar */
 .logo {
-  height: 50px;
+  height: 80px;
+    margin-left: 20px;
 }
 
 nav {
